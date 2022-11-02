@@ -1,0 +1,40 @@
+body {
+    background-color: darkseagreen;
+    font-family:'Lucida Sans',Verdana, sans-serif;
+}
+
+p { 
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.foto img {
+    background-color: black;
+}
+
+.foto img {
+    width: 23%;
+}
+
+.cod {
+    margin: auto;
+    width: 80%;
+}
+
+.cod p {
+    background-color: lightcoral;
+    border: 5px dotted lightpink;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    display: block;
+    margin: auto;
+
+}
