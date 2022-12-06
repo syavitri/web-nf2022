@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung jumlah dua bilangan</title> 
+    <script>
+        function calc() {
+            let bilangan_pertama = document.getElementById("Bil1").value;
+            let bilangan_kedua = document.getElementById("Bil2").value;
+            let hasil = parseInt(bilangan_pertama) + parseInt(bilangan_kedua);
+
+			if (!isNaN(hasil)) {
+				document.getElementById("hasil").value = hasil;
+			}
+        }
+    </script>
+</head>
+<body>
+    <h1>Menghitung jumlah dua bilangan</h1>
+        <input type="number" id="Bil1" onchange="calc()"><br>
+        <p>+</p>
+        <input type="number" id="Bil2" onchange="calc()"><br>
+        <p>=</p>
+        <input type"number" id="hasil" />
+</body>
+</html>
